@@ -11,6 +11,8 @@ def list_terminal_programs():
                 if os.path.isfile(full_path) and os.access(full_path, os.X_OK):
                     programs.add(item)
 
+   
+   
     for prog in sorted(programs):
         print(prog)
 
